@@ -1,4 +1,5 @@
 # fbgz.icu
+http://fbgz.icu
 
 ## What is it?
 One of my projects that literally does nothing. [Check it out](http://fbgz.icu). If you find something is missing, please make a feature request by creating an issue [here](https://github.com/jamesnicolas/fbgz.icu/issues). I plan to implement new features as fast as possible.
