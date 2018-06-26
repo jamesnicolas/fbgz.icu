@@ -3,9 +3,9 @@ version: '3.1'
 services:
   proxy:
     build:
-      context: .
+      context: ./proxy
     volumes:
-      - ./www:/srv/www
-      - ./default.conf:/etc/nginx/conf.d/default.conf
+      - ./proxy/www:/srv/www
+      - ./proxy/default.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 8888:80
