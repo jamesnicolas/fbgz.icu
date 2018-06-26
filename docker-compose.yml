@@ -1,11 +1,12 @@
 version: '3.1'
 
 services:
-  proxy:
+  fbgz_proxy:
+    image: fbgz_proxy
     build:
-      context: ./proxy
+      context: ./fbgz_proxy
     volumes:
-      - ./proxy/www:/srv/www
-      - ./proxy/default.conf:/etc/nginx/conf.d/default.conf
+      - ./fbgz_proxy/www:/srv/www
+      - ./fbgz_proxy/default.conf:/etc/nginx/conf.d/default.conf
     ports:
       - 8888:80
